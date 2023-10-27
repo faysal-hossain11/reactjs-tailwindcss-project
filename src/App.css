@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600&family=Playpen+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+#root {
+  max-width: 1320px !important;
+  margin: 0 auto;
+}
+.link{
+  line-height: 90px !important;
+}
+
+nav{
+  z-index: 999 !important;
+}
+.gradientBg{
+  background: linear-gradient(172deg, #EE9AE5 0.53%, #5961F9 38.96%);
+}
