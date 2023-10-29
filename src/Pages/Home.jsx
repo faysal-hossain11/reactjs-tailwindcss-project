@@ -1,8 +1,11 @@
 
 import banner from '../assets/images/banner.png'
 import Banner from '../shared/Banner';
-import Features from '../components/Header/Features';
 import About from '../components/About';
+import Features from '../components/Features';
+import Pricing from '../components/Pricing';
+import Newsletter from '../components/Newsletter';
+
 
 const Home = () => {
     return (
@@ -12,6 +15,10 @@ const Home = () => {
             <Features />
             {/* This is abodut component */}
             <About />
+            {/* This is pricing component */}
+            <Pricing />
+            {/* This is newsletter compoent */}
+            <Newsletter />
         </div>
     );
 };

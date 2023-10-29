@@ -1,4 +1,4 @@
-import features from '../../assets/images/features.png'
+import features from '../assets/images/features.png'
 
 const Features = () => {
     return (
