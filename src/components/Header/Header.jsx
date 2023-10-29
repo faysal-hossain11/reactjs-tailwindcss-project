@@ -12,7 +12,7 @@ const Header = () => {
     }
     return (
         <div className=''>
-            <nav className=' flex justify-between items-center md:px-24 py-2 px-5  bg-white  fixed top-0 left-0 right-0'>
+            <nav className=' flex justify-between shadow-md items-center md:px-24 py-2 px-5  bg-white  fixed top-0 left-0 right-0'>
                 <div className='flex items-center gap-14'>
                     <div>
                         <Link to='/'><img src={Logo} className='' /></Link>
@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
                 <div className='hidden lg:flex flex gap-6'>
                     <a href='/' className='flex items-center gap-3'><GrLanguage /> Language</a>
-                    <button className='bg-secondary px-5 py-2 text-white font-bold rounded-md'>Sign up</button>
+                    <button className='bg-secondary px-5 py-2 text-white font-bold rounded-md hover:bg-primary transition-all duration-300'>Sign up</button>
                 </div>
             </nav>
             <ul className={`md:hidden space-y-4 py-8 pt-24  bg-primary text-white px-5 ${isMenuOpen ? "block fixed top-0 left-0 right-0" : "hidden"}`}>
