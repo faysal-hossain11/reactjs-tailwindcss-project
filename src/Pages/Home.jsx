@@ -19,6 +19,7 @@ const Home = () => {
             <Pricing />
             {/* This is newsletter compoent */}
             <Newsletter />
+            {/* This is footer component */}
         </div>
     );
 };

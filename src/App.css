@@ -18,3 +18,4 @@ nav{
 .btnPrimary{
   @apply text-white text-2xl px-10 py-3 mb-6 md:mb-0 bg-secondary rounded-md hover:bg-primary transition-all duration-300 font-semibold;
 }
+
